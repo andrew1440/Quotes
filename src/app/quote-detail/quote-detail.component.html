@@ -1,0 +1,12 @@
+<div>
+  <p>Posted by
+    {{quote.name}}
+  </p>
+  <P>Author:{{quote.author}}</P>
+  <P>Posted on{{quote.postDate|date}}</P>
+  <P> Posted {{quote.postDate|dateCount}} days</P><br>
+  <p>{{quote.Information}}</p>
+  <p>This quote will be complete in {{quote.completeDate|dateCount}} days</p>
+  <button (click)='Delete(true)'>Delete Quote</button>
+  <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+</div>

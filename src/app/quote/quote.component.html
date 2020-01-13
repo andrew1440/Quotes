@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>MY QUOTES</h1>
+  <hr>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngFor='let quote of quotes;let i = index'>
+        <div>
+          <h6 id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h6>
+          <h3>Votes:{{likes}}</h3>
+          <h3>Upvotes: {{quote.counter1}}</h3>
+          <h3>DownVotes: {{quote.counter2}}</h3>
+          <button (click)="Upvote(quote)" class="upvote">upvote</button>
+          <button (click)="downvote(quote)" class="downvote">downvote</button><br>
+          <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+        </div>
+
+        <div *ngIf='quote.showInformation'>
+          <app-quote-detail [quote]='quote' (deleteit)='deleteQuote($event,i)'></app-quote-detail>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+  </div>
+
+</div>
