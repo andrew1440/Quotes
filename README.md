@@ -9,9 +9,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Author
 Andrew Odongo
 
-
+ 
 ## Description
 This is a website where an user is able to upvote or downvote the quote, add the quote
+## Setup/installation
+Open terminal (CTRL ALT T)
+git clone https;//github.com/andrew1440/quotes.git
+cd quotes
+use atom or code . to open the cloned repo on Atom or Vs-code respectively
 
 ## Code scaffolding
 
