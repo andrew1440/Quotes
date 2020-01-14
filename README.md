@@ -52,3 +52,5 @@ Tel:+254740478651
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License and Copyright information
+MIT license Copyright (c) 2020 (Andrew Odongo)
