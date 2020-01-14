@@ -28,8 +28,11 @@ https://andrew1440.github.io/Quotes/
 
 ## Setup/Installation
 Open terminal (CTRL ALT T)
+
 git clone https;//github.com/andrew1440/quotes.git
+
 cd quotes
+
 use atom or code . to open the cloned repo on Atom or Vs-code respectively
 
 ## Code scaffolding
