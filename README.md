@@ -14,7 +14,9 @@ Andrew Odongo
 This is a website where an user is able to upvote or downvote the quote, add the quote
 ## Techonologies uesd
 HTML
+
 CSS
+
 Angular
 
 ## Codebeat
