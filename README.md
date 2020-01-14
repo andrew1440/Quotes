@@ -12,6 +12,12 @@ Andrew Odongo
  
 ## Description
 This is a website where an user is able to upvote or downvote the quote, add the quote
+## Techonologies uesd
+HTML
+
+CSS
+
+Angular
 ## Setup/installation
 Open terminal (CTRL ALT T)
 git clone https;//github.com/andrew1440/quotes.git
