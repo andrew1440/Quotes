@@ -14,10 +14,12 @@ Andrew Odongo
 This is a website where an user is able to upvote or downvote the quote, add the quote
 ## Techonologies uesd
 HTML
-
 CSS
-
 Angular
+
+## Codebeat
+
+[![codebeat badge](https://codebeat.co/badges/623abb4a-a8b6-4f4f-b460-a12e773c0555)](https://codebeat.co/projects/github-com-andrew1440-quotes-master)
 ## Setup/installation
 
 ## live link
