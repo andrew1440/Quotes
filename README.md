@@ -22,7 +22,7 @@ Angular
 [![codebeat badge](https://codebeat.co/badges/623abb4a-a8b6-4f4f-b460-a12e773c0555)](https://codebeat.co/projects/github-com-andrew1440-quotes-master)
 ## Setup/installation
 
-## live link
+## Live link
 https://andrew1440.github.io/Quotes/
 Open terminal (CTRL ALT T)
 git clone https;//github.com/andrew1440/quotes.git
