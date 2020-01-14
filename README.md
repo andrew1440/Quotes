@@ -9,6 +9,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Author
 Andrew Odongo
 
+
+## Description
+This is a website where an user is able to upvote or downvote the quote, add the quote
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
