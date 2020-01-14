@@ -19,6 +19,9 @@ CSS
 
 Angular
 ## Setup/installation
+
+## live link
+https://andrew1440.github.io/Quotes/
 Open terminal (CTRL ALT T)
 git clone https;//github.com/andrew1440/quotes.git
 cd quotes
