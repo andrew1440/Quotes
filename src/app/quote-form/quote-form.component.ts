@@ -7,12 +7,16 @@ import { Quote } from '../quote';
 })
 export class QuoteFormComponent implements OnInit {
 
-  newQuote = new Quote("","","",new Date(), 0, 0);
+  newQuotes= new Quote("","","",new Date(), 0, 0);
   @Output() addQuote = new EventEmitter<Quote>();
 
-  submitQuote(){
-    this.addQuote.emit(this.newQuote);
-    this.newQuote = new Quote("","","",new Date(), 0, 0);
+  submitQuotes(){
+    let quoteLength = this.newQuotes.name. length;
+    if (quoteLength < 6) {
+      alert("Hi, write a quote")
+    }
+    this.addQuote.emit(this.newQuotes);
+    this.newQuotes = new Quote("","","",new Date(), 0, 0);
   }
   constructor() { }
 
