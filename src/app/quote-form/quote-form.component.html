@@ -20,7 +20,7 @@
         </div>
         <div class="form-group">
   
-            <label for="quote">quote</label>
+            <label for="Quote">quote</label>
             <input type='date' id="quote" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required>
             <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
               <p>Date is required</p>

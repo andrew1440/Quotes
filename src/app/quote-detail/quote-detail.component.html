@@ -6,7 +6,7 @@
   <P>Posted on{{quote.postDate|date}}</P>
   <P> Posted {{quote.postDate|dateCount}} days</P><br>
   <p>{{quote.information}}</p>
-  <p>This quote will be complete in {{quote.deleteDate|dateCount}} days</p>
+  <p>This quote will be complete in {{quote.completeDate|dateCount}} days</p>
   <button (click)='deleteit(true)'>deleteit Quote</button>
-  <app-quote-detail *ngIf='quote.showinformation' [quote]='quote' (deleteit) = 'deletequote($event,i)'></app-quote-detail>
+  <app-quote-detail *ngIf='quote.showinformation' [quote]='quote' (deleteit) = 'deleteitQuote($event,i)'></app-quote-detail>
 </div>
